@@ -16,6 +16,9 @@ which induces the dissimilarity:
 d_{\Phi_\alpha}(x, y) = \|\Phi_\alpha(x) - \Phi_\alpha(y)\|^{1/\alpha}
 \]
 
+`Φ_α(x) = sign(x) |x|^α`
+`d_{Φ_α}(x,y) = ||Φ_α(x) - Φ_α(y)||^{1/α}`
+
 This deformation modifies the geometry of the data space, allowing more flexibility than standard Euclidean clustering.
 
 ---
