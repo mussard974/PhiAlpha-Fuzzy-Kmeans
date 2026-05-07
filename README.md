@@ -40,12 +40,16 @@ This deformation modifies the geometry of the data space, allowing more flexibil
 
 ## Illustration
 
-### Φα-KMeans (Hard clustering, α = 0.6)  
-### Φα-FCM (Fuzzy clustering, m = 1.5, α = 0.6)
-
 <p align="center">
-  <img src="part2_selected_hard_alpha_0.600.png" width="45%">
-  <img src="part2_selected_fuzzy_m_1.50_alpha_0.600.png" width="45%">
+  <figure style="display:inline-block; text-align:center; width:45%;">
+    <img src="part2_selected_hard_alpha_0.600.png" width="100%">
+    <figcaption>Φα-KMeans (Hard clustering, α = 0.6)</figcaption>
+  </figure>
+
+  <figure style="display:inline-block; text-align:center; width:45%;">
+    <img src="part2_selected_fuzzy_m_1.50_alpha_0.600.png" width="100%">
+    <figcaption>Φα-FCM (Fuzzy clustering, m = 1.5, α = 0.6)</figcaption>
+  </figure>
 </p>
 
 --- 
