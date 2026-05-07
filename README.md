@@ -38,6 +38,8 @@ This deformation modifies the geometry of the data space, allowing more flexibil
 
 ---
 
+## Illustrations
+
   ### Φα-KMeans (Hard clustering, α = 0.6)  
 <p align="center">
   <img src="part2_selected_hard_alpha_0.600.png" width="45%">
