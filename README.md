@@ -55,14 +55,14 @@ This deformation modifies the geometry of the data space, allowing more flexibil
 
 ## Minimal Requirements
 
-```python
-Python >= 3.8
-PyTorch
-NumPy
-Scikit-learn
-SciPy
-Matplotlib (for visualization)
+- Python >= 3.8
+- PyTorch
+- NumPy
+- Scikit-learn
+- SciPy
+- Matplotlib (for visualization)
 
+---
 
 ## Usage
 
