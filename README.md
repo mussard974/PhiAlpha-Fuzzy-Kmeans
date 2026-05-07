@@ -53,7 +53,7 @@ This deformation modifies the geometry of the data space, allowing more flexibil
 
 --- 
 
-### Minimal Requirements
+## Minimal Requirements
 
 ```python
 Python >= 3.8
