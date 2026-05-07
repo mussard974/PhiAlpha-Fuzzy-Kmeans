@@ -12,7 +12,7 @@ $\Phi_\alpha(x) = \mathrm{sign}(x) |x|^\alpha, \ \alpha >0$
 
 which induces the $\Phi_\alpha$-distance (when $\alpha \geq 1$) or quasi-distance (when $\alpha\in$ (0,1)):
 
-$d_{\Phi_\alpha}(x, y) = ||\Phi_\alpha(x) - \Phi_\alpha(y)||^{1/\alpha}$
+$d_{\Phi_\alpha}(x, y) = \left\|\Phi_\alpha(x) - \Phi_\alpha(y)\right\|^{1/\alpha}$
 
 This deformation modifies the geometry of the data space, allowing more flexibility than standard Euclidean clustering.
 
