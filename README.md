@@ -38,14 +38,14 @@ This deformation modifies the geometry of the data space, allowing more flexibil
 
 ---
 
-<p align="center">
   ### Φα-KMeans (Hard clustering, α = 0.6)  
+<p align="center">
   <img src="part2_selected_hard_alpha_0.600.png" width="45%">
 </p>
 
 
-<p align="center">
   ### Φα-FCM (Fuzzy clustering, m = 1.5, α = 0.6)
+<p align="center">
   <img src="part2_selected_fuzzy_m_1.50_alpha_0.600.png" width="45%">
 </p>
 
