@@ -8,16 +8,13 @@ This repository implements **$\Phi_\alpha$-KMeans** and **$\Phi_\alpha$-FCM**, t
 
 We consider the transformation:
 
-\[
+$
 \Phi_\alpha(x) = \mathrm{sign}(x) |x|^\alpha
-\]
+$
 which induces the dissimilarity:
-\[
+$
 d_{\Phi_\alpha}(x, y) = \|\Phi_\alpha(x) - \Phi_\alpha(y)\|^{1/\alpha}
-\]
-
-`Φ_α(x) = sign(x) |x|^α`
-`d_{Φ_α}(x,y) = ||Φ_α(x) - Φ_α(y)||^{1/α}`
+$
 
 This deformation modifies the geometry of the data space, allowing more flexibility than standard Euclidean clustering.
 
@@ -67,3 +64,38 @@ Scikit-learn
 SciPy
 Matplotlib (for visualization)
 
+
+## Usage
+
+```python
+from phi_kmeans import PhiKMeans
+from phi_fcm import PhiFCM
+
+# Example data
+# X: torch tensor or numpy array
+
+# ----------------------
+# Φα-KMeans (Hard clustering)
+# ----------------------
+kmeans = PhiKMeans(k=3, alpha=0.6)
+kmeans.fit(X)
+
+labels_kmeans = kmeans.labels_
+
+
+# ----------------------
+# Φα-FCM (Fuzzy clustering)
+# ----------------------
+fcm = PhiFCM(k=3, alpha=0.6, m=1.5)
+fcm.fit(X)
+
+labels_fcm = fcm.labels_
+
+
+# ----------------------
+# With shared initialization (recommended for comparison)
+# ----------------------
+init_centroids = PhiKMeans.kmeans_pp_init(X, k=3)
+
+kmeans.fit(X, init_centroids)
+fcm.fit(X, init_centroids)
