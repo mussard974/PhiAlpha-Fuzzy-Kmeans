@@ -52,7 +52,7 @@ This deformation modifies the geometry of the data space, allowing more flexibil
 
 ![Phi-FCM](part2_selected_fuzzy_m_1.50_alpha_0.600.png)
 
----
+--- 
 
 ### Minimal Requirements
 
