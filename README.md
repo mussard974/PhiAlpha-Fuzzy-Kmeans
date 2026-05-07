@@ -8,9 +8,9 @@ This repository implements **$\Phi_\alpha$-KMeans** and **$\Phi_\alpha$-FCM**, t
 
 We consider the transformation:
 
-$\Phi_\alpha(x) = \mathrm{sign}(x) |x|^\alpha$
+$\Phi_\alpha(x) = \mathrm{sign}(x) |x|^\alpha, \ \alpha >0$
 
-which induces the $\Phi_\alpha$-distance -when $\alpha \geq 1$:
+which induces the $\Phi_\alpha$-distance when $\alpha \geq 1$:
 
 $d_{\Phi_\alpha}(x, y) = \|\Phi_\alpha(x) - \Phi_\alpha(y)\|^{1/\alpha}$
 
