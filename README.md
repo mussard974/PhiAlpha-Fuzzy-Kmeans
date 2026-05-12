@@ -10,7 +10,7 @@ We consider the transformation:
 
 $\Phi_\alpha(x) = \mathrm{sign}(x) |x|^\alpha, \ \alpha >0$
 
-which induces the $\Phi_\alpha$-distance (when $\alpha \geq 1$) or quasi-distance (when $\alpha\in$ (0,1)):
+which induces the $\Phi_\alpha$-distance (when $\alpha \geq 1$) or dissimilarity (when $\alpha\in$ (0,1)):
 
 $d_{\Phi_\alpha}(x, y) = \left\|\left\|\Phi_\alpha(x) - \Phi_\alpha(y)\right\|\right\|^{1/\alpha}$
 
